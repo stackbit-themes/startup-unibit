@@ -187,7 +187,6 @@ sections:
       - label: Try for free
         url: /thank-you
         style: primary
-    actions_position: center
     actions_width: fourty
     align: center
     padding_top: large
