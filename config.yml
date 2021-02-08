@@ -23,7 +23,7 @@ params:
         url: /blog
         style: link
       - label: Log in
-        url: /contact
+        url: /thank-you
         style: link
       - label: Get Started
         url: /pricing
