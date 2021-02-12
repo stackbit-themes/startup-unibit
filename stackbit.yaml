@@ -27,7 +27,7 @@ stackbit_banner:
   show_banner: true
   name: Startup
   create_url: 'https://app.stackbit.com/create?theme=diy'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-diy'
+  github_url: 'https://github.com/stackbit/stackbit-theme-diy'
 models:
   config:
     type: config
