@@ -4,8 +4,7 @@ init_js: "js/init.js"
 page_load_js: "js/page-load.js"
 page_unload_js: "js/page-unload.js"
 params:
-  description: A "do it yourself" theme for Stackbit
-  layout: full-width
+  layout_type: full-width
   style: classic
   palette: blue
   mode: light
@@ -13,36 +12,37 @@ params:
   header:
     title: Startup
     logo: "images/logo.svg"
-    logo_alt: DIY logo
+    logo_alt: YourGoal logo
+    has_primary_nav: false
     has_secondary_nav: true
     secondary_nav_links:
       - label: About
         url: /about
+        style: link
+      - label: FAQ
+        url: /faq
         style: link
       - label: Blog
         url: /blog
         style: link
       - label: Log in
         url: /thank-you
-        style: link
+        style: secondary
       - label: Get Started
         url: /pricing
         style: primary
     has_anncmnt: false
-    anncmnt_content: >-
-      Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**
-    anncmnt_align: left
-    anncmnt_is_home_only: true
-    anncmnt_has_close: true
-    anncmnt_id: new-features
   footer:
     logo: "images/logo.svg"
-    logo_alt: DIY logo
+    logo_alt: YourGoal logo
     has_primary_nav: true
     primary_nav_title: Company
     primary_nav_links:
       - label: About
         url: /about
+        style: link
+      - label: FAQ
+        url: /faq
         style: link
       - label: Style Guide
         url: /style-guide
@@ -53,11 +53,11 @@ params:
       - label: News
         url: /blog/category/news
         style: link
-      - label: General
-        url: /blog/category/general
+      - label: Tips
+        url: /blog/category/tips
         style: link
-      - label: Tutorials
-        url: /blog/category/tutorials
+      - label: Use Cases
+        url: /blog/category/use-cases
         style: link
     has_tertiary_nav: true
     tertiary_nav_title: Legal
@@ -106,7 +106,7 @@ params:
         icon_position: center
         new_window: true
     content: >-
-      &copy; Stackbit. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=diy&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
+      &copy; Stackbit. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=startup&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
 sass:
   input_file: sass/main.scss
   output_file: css/main.css
@@ -114,4 +114,4 @@ sass:
   outputStyle: expanded
   precision: 10
 templates:
-  body_class: "layout-{{ site.params.layout }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"
+  body_class: "layout-{{ site.params.layout_type }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"

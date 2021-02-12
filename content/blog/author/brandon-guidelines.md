@@ -1,9 +1,8 @@
 ---
-title: Blog
+title: Brandon Guidelines
 sections:
   - type: hero_section
-    title: Blog
-    subtitle: Planning and productivity insights
+    title: Posts by Brandon Guidelines
     align: center
     padding_top: medium
     padding_bottom: none
@@ -12,6 +11,7 @@ sections:
     blog_feed_cols: two
     enable_cards: true
     show_recent: false
+    author: data/team/brandon-guidelines.yaml
     show_date: true
     show_categories: true
     show_author: false
@@ -39,30 +39,30 @@ sections:
     has_border: true
     background_color: secondary
 seo:
-  title: Blog
-  description: This is the blog page
+  title: Posts by Brandon Guidelines
+  description: This is the author archive page
   extra:
     - name: og:type
       value: website
       keyName: property
     - name: og:title
-      value: Blog
+      value: Posts by Brandon Guidelines
       keyName: property
     - name: og:description
-      value: This is the blog page
+      value: This is the author archive page
       keyName: property
     - name: og:image
-      value: images/post-5.png
+      value: images/post-5.jpg
       keyName: property
       relativeUrl: true
     - name: twitter:card
       value: summary_large_image
     - name: twitter:title
-      value: Blog
+      value: Posts by Brandon Guidelines
     - name: twitter:description
-      value: This is the blog page
+      value: This is the author archive page
     - name: twitter:image
-      value: images/post-5.png
+      value: images/post-5.jpg
       relativeUrl: true
 layout: advanced
 ---

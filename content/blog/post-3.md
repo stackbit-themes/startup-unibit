@@ -2,13 +2,12 @@
 title: The Benefits and Value of Goal Setting
 subtitle: >-
   Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Putabam equidem satis, inquit, me dixisse.
-date: 2020-05-28
-author: data/team/gustav-purpleson.yaml
+date: 2020-12-28
+author: data/team/brandon-guidelines.yaml
 categories:
-  - data/categories/general.yaml
+  - data/categories/use-cases.yaml
 tags:
-  - data/tags/stackbit.yaml
-  - data/tags/jamstack.yaml
+  - data/tags/productivity.yaml
 excerpt: >-
   Quis est, qui non oderit libidinosam, protervam adolescentiam? Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Putabam equidem satis, inquit, me dixisse.
 thumb_image: images/post-3.jpg
@@ -16,6 +15,32 @@ thumb_image_alt: Post 3 placeholder image
 image: images/post-3.jpg
 image_alt: Post 3 placeholder image
 image_position: top
+seo:
+  title: The Benefits and Value of Goal Setting
+  description: Quis est, qui non oderit libidinosam, protervam adolescentiam
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: The Benefits and Value of Goal Setting
+      keyName: property
+    - name: og:description
+      value: Quis est, qui non oderit libidinosam, protervam adolescentiam
+      keyName: property
+    - name: og:image
+      value: images/post-3.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: The Benefits and Value of Goal Setting
+    - name: twitter:description
+      value: Quis est, qui non oderit libidinosam, protervam adolescentiam
+    - name: twitter:image
+      value: images/post-3.jpg
+      relativeUrl: true
 layout: post
 ---
 

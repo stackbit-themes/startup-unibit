@@ -2,14 +2,10 @@
 title: What Are Some Good Daily Goals to Set?
 subtitle: >-
   Negat esse eam, inquit, propter se expetendam. Ergo, si semel tristior effectus est, hilara vita amissa est.
-date: 2021-01-01
+date: 2021-01-15
 author: data/team/dianne-ameter.yaml
 categories:
-  - data/categories/tutorials.yaml
-  - data/categories/news.yaml
-tags:
-  - data/tags/jamstack.yaml
-  - data/tags/sourcebit.yaml
+  - data/categories/tips.yaml
 excerpt: >-
   Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret.
 thumb_image: images/post-4.jpg
@@ -17,6 +13,32 @@ thumb_image_alt: Post 4 placeholder image
 image: images/post-4.jpg
 image_alt: Post 4 placeholder image
 image_position: right
+seo:
+  title: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
+  description: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
+      keyName: property
+    - name: og:description
+      value: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+      keyName: property
+    - name: og:image
+      value: images/post-4.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
+    - name: twitter:description
+      value: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+    - name: twitter:image
+      value: images/post-4.jpg
+      relativeUrl: true
 layout: post
 ---
 

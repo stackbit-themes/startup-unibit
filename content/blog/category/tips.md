@@ -1,8 +1,8 @@
 ---
-title: Tutorials
+title: Tips
 sections:
   - type: hero_section
-    title: Tutorials
+    title: Posts in Tips
     align: center
     padding_top: medium
     padding_bottom: none
@@ -11,7 +11,7 @@ sections:
     blog_feed_cols: two
     enable_cards: true
     show_recent: false
-    category: data/categories/tutorials.yaml
+    category: data/categories/tips.yaml
     show_date: true
     show_categories: true
     show_author: false
@@ -21,11 +21,8 @@ sections:
     padding_bottom: large
     has_border: true
   - type: form_section
-    title: Inline Form
+    title: Subscribe to our newsletter to make sure you don’t miss anything
     title_align: center
-    content: >-
-      Subscribe to our newsletter to make sure you don't miss anything.
-    content_align: center
     form_position: bottom
     form_layout: inline
     form_id: subscribeForm
@@ -41,5 +38,31 @@ sections:
     padding_bottom: medium
     has_border: true
     background_color: secondary
+seo:
+  title: Posts in Tips
+  description: This is the category archive page
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Posts in Tips
+      keyName: property
+    - name: og:description
+      value: This is the category archive page
+      keyName: property
+    - name: og:image
+      value: images/post-5.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Posts in Tips
+    - name: twitter:description
+      value: This is the category archive page
+    - name: twitter:image
+      value: images/post-5.jpg
+      relativeUrl: true
 layout: advanced
 ---

@@ -2,27 +2,51 @@
 title: Time Management and Happiness
 subtitle: >-
   Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum.
-date: 2020-05-25
-author: data/team/hilary-ouse.yaml
+date: 2020-12-02
+author: data/team/dianne-ameter.yaml
 categories:
   - data/categories/news.yaml
-  - data/categories/general.yaml
 tags:
-  - data/tags/jamstack.yaml
-  - data/tags/netlify.yaml
+  - data/tags/extensions.yaml
 excerpt: >-
-  Diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna.
+  Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna.
 thumb_image: images/post-2.jpg
 thumb_image_alt: Post 2 placeholder image
 image: images/post-2.jpg
 image_alt: Post 2 placeholder image
 image_position: left
+seo:
+  title: Time Management and Happiness
+  description: Quae diligentissime contra Aristonem dicuntur a Chryippo
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Time Management and Happiness
+      keyName: property
+    - name: og:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+      keyName: property
+    - name: og:image
+      value: images/post-2.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Time Management and Happiness
+    - name: twitter:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+    - name: twitter:image
+      value: images/post-2.jpg
+      relativeUrl: true
 layout: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Nam de isto magna dissensio est. Nullum inveniri verbum potest quod magis idem declaret Latine, quod Graece, quam declarat voluptas. Idemne potest esse dies saepius, qui semel fuit? Non est ista, inquam, Piso, magna dissensio. Ita multo sanguine profuso in laetitia et in victoria est mortuus. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Duo Reges: constructio interrete.
 
-Diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Nihil enim hoc differt. Quorum sine causa fieri nihil putandum est.
+Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Nihil enim hoc differt. Quorum sine causa fieri nihil putandum est.
 
 ## Sed Nimis Multa
 
