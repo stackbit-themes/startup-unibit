@@ -20,7 +20,7 @@ seo:
   description: Quae diligentissime contra Aristonem dicuntur a Chryippo
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Time Management and Happiness

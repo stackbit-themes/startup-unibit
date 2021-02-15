@@ -26,13 +26,17 @@ metadata:
 stackbit_banner:
   show_banner: true
   name: Startup
-  create_url: 'https://app.stackbit.com/create?theme=diy'
-  github_url: 'https://github.com/stackbit/stackbit-theme-diy'
+  create_url: 'https://app.stackbit.com/create?theme=startup'
+  github_url: 'https://github.com/stackbit/stackbit-theme-startup'
 models:
   config:
     type: config
     label: Site configuration
     fields:
+      - type: string
+        name: domain
+        label: Domain
+        description: The domain of your site, including the protocol, e.g. https://mysite.com/
       - type: image
         name: favicon
         label: Favicon
